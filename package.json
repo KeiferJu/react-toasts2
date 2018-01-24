@@ -1,0 +1,35 @@
+{
+  "name": "react-toasts",
+  "version": "1.2.2",
+  "description": "Simple react alerter",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production gulp build"
+  },
+  "repository": "Vashnak/react-toasts",
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "keywords": [
+    "react",
+    "toast",
+    "toaster",
+    "alert",
+    "alerter"
+  ],
+  "dependencies": {
+    "react-transition-group": "^1.1.2",
+    "watchable-stores": "^1.0.1"
+  },
+  "author": "Vashnak",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/Vashnak/react-toasts/issues"
+  },
+  "homepage": "https://github.com/Vashnak/react-toasts",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
